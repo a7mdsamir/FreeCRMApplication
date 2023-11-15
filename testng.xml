@@ -1,0 +1,27 @@
+<suite name="free CRM app test" verbose="1" >
+    <test name="End to End test" >
+        <classes>
+            <class name="com.freecrm.testcases.LoginPageTest" />
+            <class name="com.freecrm.testcases.HomePageTest" />
+        </classes>
+    </test>
+    <test name="Methods" >
+        <classes>
+            <class name="com.freecrm.testcases.LoginPageTest" >
+                <methods>
+                    <exclude name="logoTest" />
+                </methods>
+            </class>
+            <class name="com.freecrm.testcases.HomePageTest" >
+                <methods>
+                    <include name="contacts" > </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Regression test" >
+        <classes>
+            <class name="com.freecrm.testcases.LoginPageTest" />
+        </classes>
+    </test>
+</suite>

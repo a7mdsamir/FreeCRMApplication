@@ -1,0 +1,15 @@
+<suite name="free CRM app test" verbose="1" >
+
+    <listeners>
+        <listener class-name = "listeners.Listeners" > </listener>
+    </listeners>
+    <test name="dataProvider" >
+        <classes>
+            <class name="com.freecrm.testcases.LoginPageTest" >
+                <methods>
+                    <include name="loginTest" > </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

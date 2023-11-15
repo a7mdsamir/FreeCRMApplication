@@ -1,0 +1,12 @@
+<suite name="free CRM app test" verbose="1" >
+    <test name="Regression test" >
+        <groups>
+            <run>
+                <include name = "E2E" > </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.freecrm.testcases.HomePageTest" />
+        </classes>
+    </test>
+</suite>

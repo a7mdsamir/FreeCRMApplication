@@ -1,0 +1,12 @@
+
+<suite name="free CRM app test" verbose="1" >
+
+    <parameter name="URL" value="https://classic.crmpro.com/index.html" > </parameter>
+
+    <test name="End to End test" >
+        <classes>
+            <class name="com.freecrm.testcases.HomePageTest" />
+        </classes>
+    </test>
+
+</suite>

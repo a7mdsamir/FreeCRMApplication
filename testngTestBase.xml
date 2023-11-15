@@ -1,0 +1,9 @@
+<suite name="free CRM app test" verbose="1" >
+
+    <test name="End to End test" >
+        <classes>
+            <class name="com.freecrm.testcases.TestBase" />
+        </classes>
+    </test>
+
+</suite>

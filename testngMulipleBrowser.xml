@@ -1,0 +1,13 @@
+
+<suite name="free CRM app test" verbose="1" >
+
+
+    <test name="End to End test" >
+        <parameter name="browser" value="edge" > </parameter>
+
+        <classes>
+            <class name="com.freecrm.testcases.MultipleBrowser" />
+        </classes>
+    </test>
+
+</suite>
